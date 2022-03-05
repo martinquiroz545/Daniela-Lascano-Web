@@ -1,0 +1,19 @@
+.logoDL {
+  width: 84px;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.botonNav {
+  height: 72px;
+  width: 200px;
+  border-radius: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  margin-right: 19rem !important;
+}
