@@ -15,7 +15,26 @@
 }
 
 .navbar-nav {
-  margin-right: 19rem !important;
+  margin-right: 6rem !important;
+}
+
+.nav-link:hover {
+  color: #2ec9e5 !important;
+}
+
+.block-foto {
+  position: relative;
+}
+
+.gradiente {
+  position: absolute;
+  z-index: -1;
+  width: 664px;
+  height: 472px;
+  top: 0;
+  right: -100px;
+  background: rgba(255, 255, 255, 0.85);
+  filter: blur(125px);
 }
 
 /* Borde de la primera sección 3 cards */
