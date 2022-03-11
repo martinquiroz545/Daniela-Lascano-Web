@@ -17,3 +17,21 @@
 .navbar-nav {
   margin-right: 19rem !important;
 }
+
+/* Borde de la primera sección 3 cards */
+.borderr1 {
+  border-radius: 8rem 0 0 0;
+}
+
+.borderr2 {
+  border-radius: 0 8rem 0 0;
+}
+
+.borderr3 {
+  border-radius: 0 0 8rem 0;
+}
+
+/* Número 30 en grande */
+.textel {
+  font-size: 9rem;
+}
