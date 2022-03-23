@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/css/bootstrap.css" rel="stylesheet" />
     <link href="/css/style.css" rel="stylesheet" />
+    <!-- Fuente Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <title>Home</title>
   </head>
   <body class="bg-primary">
@@ -13,7 +18,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand pt-4 ps-5" href="#"
+          <a class="navbar-brand pt-4 ps-5" href="/Home.html"
             ><img
               class="logoDL"
               src="/img/logo-min-transp-white.png"
@@ -39,7 +44,7 @@
                 <a
                   class="nav-link active text-white fw-lighter fs-4"
                   aria-current="page"
-                  href="#"
+                  href="/Servicios.html"
                   >Servicios</a
                 >
               </li>
@@ -70,14 +75,14 @@
           <div
             class="text-start position-relative top-50 start-50 translate-middle"
           >
-            <p class="fs-1 text-white">
+            <p class="fs-1 text-white fprincipal">
               Mejora la <span class="text-warning">difusión</span></br> de tu negocio
             </p>
             <p class="text-white">
               Impulsa tu comercio mejorando la visibilidad local de tus
               productos llegando a más personas
             </p>
-            <button type="button" class="btn btn-info col-6 text-dark">
+            <button type="button" class="btn btn-info col-12 col-md-6 text-dark boton">
               Conoce más
             </button>
           </div>
@@ -96,8 +101,8 @@
 
     <!-- Inicia segunda pate del home de las 3 imagenes y texto  -->
     <div class="container-fluid bg-light borderr1 pt-5 pb-5">
-      <div class="text-center">
-        <p class="fs-1 fw-bold">
+      <div class="text-center mb-5">
+        <p class="fs-2 fw-bold">
           Servicios a tu <span class="text-info">disposición</span>
         </p>
         <p>A través de la difusión buscamos mejorar la presencia de tu marca</p>
@@ -108,12 +113,12 @@
           <div class="text-center" style="width: 18rem">
             <img
               src="/img/people.svg"
-              class="card-img-top"
+              class="card-img-top iconocolor "
               alt="..."
-              style="width: 5rem"
+              style="width: 5.5rem"
             />
             <div class="card-body">
-              <h5 class="card-title">Contacta</h5>
+              <h5 class="card-title text-primary fprincipal">Contacta</h5>
               <p class="card-text">
                 Con cientos de clientes 100% reales cerca de ti
               </p>
@@ -128,7 +133,7 @@
               style="width: 6rem"
             />
             <div class="card-body">
-              <h5 class="card-title">Aumenta</h5>
+              <h5 class="card-title text-primary fprincipal">Aumenta</h5>
               <p class="card-text">
                 La visibilidad de tu marca en el territorio local
               </p>
@@ -143,7 +148,7 @@
               style="width: 6rem"
             />
             <div class="card-body">
-              <h5 class="card-title">Mejora</h5>
+              <h5 class="card-title text-primary fprincipal">Mejora</h5>
               <p class="card-text">
                 Tus ventas significativamente semana a semana
               </p>
@@ -158,11 +163,11 @@
 
     <div class="bg-light">
       <div class="container-fluid borderr2 bg-primary">
-        <h4 class="text-center pt-5 pb-2">
-          Descubre el plan que más se adapte a <span>tus necesidades</span>
+        <h4 class="text-center  text-white pt-5 pb-2 fprincipal">
+          Descubre el plan que más se adapte a <span class="text-primary">tus necesidades</span>
         </h4>
-        <div class="row justify-content-center pt-2 pb-5">
-          <button type="button" class="btn btn-info col-3 text-dark">
+        <div class="row justify-content-center pt-2 pb-5 mx-2">
+          <button type="button" class="btn btn-info col-12 col-md-3 text-dark boton">
             Planes y Servicios
           </button>
         </div>
@@ -172,30 +177,33 @@
     <!-- Termina Tercera parte frase y boton -->
 
     <!-- Inicia la cuarta parte carrousel -->
-    <div class="bg-white borderr3 py-5">
-      <div class="d-flex justify-content-evenly">
-        <div>
-          <p class="textel">+30</p>
-        </div>
-        <div class="d-flex align-items-center">
-          <div>
-            <p class="font-weight-bold">
-              !Más de 30 comercios han confiado en nuestros servicios en el
-              último año!
-            </p>
-            <p>
-              Difundimos todo tipo de contenido sin importar la categoría: m
-            </p>
+    <div class="bg-info">
+      <div class="bg-white borderr3 py-5">
+        <div class="d-flex flex-column justify-content-evenly flex-sm-row">
+          <div class="col-5 mx-auto">
+            <p class="textel text-center fprincipal text-primary mx-auto">+30</p>
+          </div>
+          <div class="d-flex align-items-center col-7 pe-3 mx-auto">
+            <div>
+              <p class="fprincipal fs-2">
+                !Más de 30 comercios han confiado en nuestros servicios en el
+                último año!
+              </p>
+              <p>
+                Difundimos todo tipo de contenido sin importar la categoría: marroquinería,salud, belleza, accesorios, artículos para el hogar, servicios y mucho más
+              </p>
+            </div>
           </div>
         </div>
+        <!-- Carrousel -->
+        <div></div>
       </div>
-      <!-- Carrousel -->
-      <div></div>
     </div>
+    
     <!-- Termina la cuarta parte carrousel -->
 
     <!-- Footer -->
-    <div class="d-flex flex-column justify-content-center pt-4 pb-4">
+    <div class="d-flex flex-column justify-content-center pt-4 pb-4 bg-info ">
       <div>
         <img
           src="/img/logo transp white.png"
@@ -206,9 +214,8 @@
         />
       </div>
 
-      <div><p class="text-center">Siguenos en:</p></div>
-      }
-      <div class="d-flex justify-content-around col-2 mx-auto">
+      <div><p class="text-center text-white fs-3 my-4">Siguenos en:</p></div>
+      <div class="d-flex justify-content-around col-2 mx-auto px-4">
         <img
           src="/img/facebook.svg"
           class="img-fluid rounded mx-auto d-block text-center"
