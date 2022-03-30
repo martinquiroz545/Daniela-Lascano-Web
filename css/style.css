@@ -151,3 +151,9 @@ ul.card-list li::before {
   background-color: #e8e8e8;
   border: none;
 }
+
+/* Border Radius de imagen de tarjeta de Daniela Lazcano */
+
+.br-imagen {
+  border-radius: 1.5rem;
+}
