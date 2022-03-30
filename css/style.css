@@ -28,7 +28,6 @@
 .btn-wsp:hover {
   background-color: rgb(0, 0, 0);
   transition: 0.5s;
-
 }
 
 .logoDL {
@@ -88,7 +87,6 @@
   border-radius: 0 0 8rem 0;
 }
 
-
 .br-2 {
   border-radius: 20px;
 }
@@ -96,7 +94,6 @@
 .borderrtemplate {
   border-radius: 8rem 0 8rem 0;
 }
-
 
 /* Número 30 en grande */
 .textel {
@@ -109,10 +106,9 @@
   padding-bottom: 8rem;
 }
 
-
 .pr-0 {
   padding-right: 0 !important;
-
+}
 a {
   text-decoration: none;
 }

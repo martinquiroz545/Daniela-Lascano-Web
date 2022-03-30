@@ -7755,7 +7755,7 @@ fieldset:disabled .btn {
 }
 
 .bg-light {
-  background-color: #E8E8E8 !important;
+  background-color: #e8e8e8 !important;
 }
 
 .bg-dark {
@@ -7763,11 +7763,23 @@ fieldset:disabled .btn {
 }
 
 .bg-body {
-  background: rgb(74,67,155);
-background: -moz-linear-gradient(180deg, rgba(74,67,155,1) 50%, rgba(0,0,64,1) 50%);
-background: -webkit-linear-gradient(180deg, rgba(74,67,155,1) 50%, rgba(0,0,64,1) 50%);
-background: linear-gradient(180deg, rgba(74,67,155,1) 50%, rgba(0,0,64,1) 50%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4a439b",endColorstr="#000040",GradientType=1);!important;
+  background: rgb(74, 67, 155);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(74, 67, 155, 1) 50%,
+    rgba(0, 0, 64, 1) 50%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(74, 67, 155, 1) 50%,
+    rgba(0, 0, 64, 1) 50%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(74, 67, 155, 1) 50%,
+    rgba(0, 0, 64, 1) 50%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4a439b",endColorstr="#000040",GradientType=1) !important;
 }
 
 .bg-white {
