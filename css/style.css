@@ -28,6 +28,7 @@
 .btn-wsp:hover {
   background-color: rgb(0, 0, 0);
   transition: 0.5s;
+
 }
 
 .logoDL {
@@ -87,9 +88,16 @@
   border-radius: 0 0 8rem 0;
 }
 
+
 .br-2 {
   border-radius: 20px;
 }
+
+.borderrtemplate {
+  border-radius: 8rem 0 8rem 0;
+}
+
+
 /* Número 30 en grande */
 .textel {
   font-size: 9rem;
@@ -101,8 +109,17 @@
   padding-bottom: 8rem;
 }
 
+
 .pr-0 {
   padding-right: 0 !important;
+
+a {
+  text-decoration: none;
+}
+
+/* Texto 4ta seccion */
+.textogrande {
+  font-size: 18rem;
 }
 
 /* IMAGENES SEUDO CAROUSEL */
@@ -129,4 +146,12 @@ ul.card-list li::before {
 
 .card {
   max-width: 432px;
+}
+
+/* Inputs del formuario de la página "Sobre Mí" */
+
+.inputal {
+  border-radius: 0.8rem;
+  background-color: #e8e8e8;
+  border: none;
 }
