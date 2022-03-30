@@ -16,7 +16,7 @@
 
     <title>Home</title>
   </head>
-  <body class="bg-primary">
+  <body class="bg-body">
     <!-- Inicia Barra de Navegación -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -77,128 +77,78 @@
     <!-- Primera Parte -->
     <div class="container text-center">
       <p class="fprincipal text-white fs-3">
-        Nuestos <span class="text-primary"> clientes</span>
+        ¿Tienes <span class="text-primary"> dudas?</span>
       </p>
       <p class="text-white">
-        Difundimos todo tipo de contenido sin importar la categoría:
-        marroquinería, salud, belleza, accesorios artículos para el hogar,
-        servicios, alimentación, eventos, fundaciones y mucho más
+        Dirigete al formulario y comunícate con nosotros y cuéntanos tu idea de
+        negocio, estamos dispuestos a escucharte y ofrecerte la mejor solución
+        para tu comercio
       </p>
     </div>
 
-    <div class="container-fluid bg-white">
-      <!-- Grid de imagenes  -->
-      <div class="mx-auto p-5">
-        <div class="row mb-4">
-          <div class="col">
-            <div class="card" style="width: 13rem">
-              <img
-                src="/img/mockup cards2.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-center">Servicios</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 13rem">
-              <img
-                src="/img/mockup cards2.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-center">Comidas</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 13rem">
-              <img
-                src="/img/mockup cards2.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-center">Belleza</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 13rem">
-              <img
-                src="/img/mockup cards2.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-center">accesorios</p>
-              </div>
-            </div>
-          </div>
+    <div class="container-fluid bg-white borderrtemplate">
+      <!-- Div para foto y formulario -->
+      <div class="container row mx-5 py-5">
+        <!-- Div para foto -->
+        <div class="col-6">
+          <img src="/img/escritorioconmano.jpg" class="img-fluid" alt="..." />
         </div>
-        <div class="row">
-          <div class="col">
-            <div class="card" style="width: 13rem">
-              <img
-                src="/img/mockup cards2.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-center">Eventos</p>
-              </div>
-            </div>
+        <!-- Div para Formulario -->
+        <div class="col-6">
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label"
+              >Nombres y Apellidos</label
+            >
+            <input
+              type="text"
+              class="form-control inputal"
+              id="formGroupExampleInput"
+              placeholder=""
+            />
           </div>
-          <div class="col">
-            <div class="card" style="width: 13rem">
-              <img
-                src="/img/mockup cards2.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-center">Mascotas</p>
-              </div>
-            </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label"
+              >Correo electrónico</label
+            >
+            <input
+              type="text"
+              class="form-control inputal"
+              id="formGroupExampleInput2"
+              placeholder=""
+            />
           </div>
-          <div class="col">
-            <div class="card" style="width: 13rem">
-              <img
-                src="/img/mockup cards2.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-center">Papeleria</p>
-              </div>
-            </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label"
+              >Mensaje</label
+            >
+            <input
+              type="text"
+              class="form-control inputal"
+              id="formGroupExampleInput"
+              placeholder=""
+              style="height: auto"
+            />
           </div>
-          <div class="col">
-            <div class="card" style="width: 13rem">
-              <img
-                src="/img/mockup cards2.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-center">Moda</p>
-              </div>
-            </div>
-          </div>
+          <button
+            type="button"
+            class="btn btn-info col-12 col-md-6 text-dark boton"
+          >
+            Enviar
+          </button>
+        </div>
+        <!-- Termina div de formulario -->
+        <div>
+          <p class="text-center bg-white py-5 mb-0">
+            ¿Prefieres una atención más personalizada? Comunícate a nuestro
+            enlace de whatsa para ser atendido por un asesor
+          </p>
         </div>
       </div>
-      <!-- Termina Grid de imagenes -->
-      <p class="fprincipal text-dark fs-3 text-center">
-        Nuestos clientes<span class="text-primary"> nos prefieren</span>
-      </p>
+      <!-- Termina div para foto y formulario -->
     </div>
-    <!-- Contenedor intermedio con precios -->
 
     <!-- Footer -->
-    <div class="d-flex flex-column justify-content-center pt-4 pb-4 bg-info">
+    <div class="d-flex flex-column justify-content-center pt-4 pb-4">
       <div>
         <img
           src="/img/logo transp white.png"
