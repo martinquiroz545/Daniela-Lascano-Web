@@ -2,6 +2,35 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* BOTON FLOTANTE WP */
+
+.btn-wsp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #29a71a;
+  color: white;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 100;
+}
+
+.icon-whatsapp {
+  width: 2.5rem;
+}
+
+.btn-wsp:hover {
+  background-color: rgb(0, 0, 0);
+  transition: 0.5s;
+
+}
+
 .logoDL {
   width: 84px;
 }
@@ -41,6 +70,11 @@
   filter: blur(125px);
 }
 
+.boton {
+  border-radius: 0.6rem;
+  font-weight: 700;
+}
+
 /* Borde de la primera sección 3 cards */
 .borderr1 {
   border-radius: 8rem 0 0 0;
@@ -54,26 +88,30 @@
   border-radius: 0 0 8rem 0;
 }
 
+
+.br-2 {
+  border-radius: 20px;
+}
+
 .borderrtemplate {
   border-radius: 8rem 0 8rem 0;
 }
 
+
 /* Número 30 en grande */
 .textel {
-  font-size: 8rem;
+  font-size: 9rem;
 }
 
-/* Fuente */
-.fprincipal {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+/* extra padding bottom */
+
+.pb-6 {
+  padding-bottom: 8rem;
 }
 
-/* Botones */
-.boton {
-  border-radius: 0.6rem;
-  font-weight: 700;
-}
+
+.pr-0 {
+  padding-right: 0 !important;
 
 a {
   text-decoration: none;
@@ -84,24 +122,30 @@ a {
   font-size: 18rem;
 }
 
-/* Color de los iconos */
-.iconocolor {
-  color: black;
+/* IMAGENES SEUDO CAROUSEL */
+
+.img-car {
+  width: 200px;
+  height: 200px;
 }
 
-.textoL {
-  font-weight: 300;
+/* BULLETS DE COLOR PARA LAS CARDS */
+
+ul {
+  list-style: none;
 }
 
-/* Background color gradiente corregido */
+ul.card-list li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #2ec9e5; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
 
-.fondogradiente {
-  background: rgb(74, 67, 155);
-  background: linear-gradient(
-    180deg,
-    rgba(74, 67, 155, 1) 50%,
-    rgba(0, 0, 64, 1) 50%
-  );
+.card {
+  max-width: 432px;
 }
 
 /* Inputs del formuario de la página "Sobre Mí" */

@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
 
-    <title>Home</title>
+    <title>Servicios</title>
   </head>
   <body class="bg-primary">
     <!-- Inicia Barra de Navegación -->
@@ -69,9 +69,13 @@
         </div>
       </nav>
     </header>
+    <!-- Botón flotante Whatsapp -->
+    <a href="https://api.whatsapp.com/send?phone=#" class="btn-wsp" target="blank">
+     <img src="img/icons8-wp.png" alt="icono whatsapp" class="icon-whatsapp">
+    </a>
 
     <!-- Primera Parte -->
-    <div class="container text-center">
+    <div class="container text-center my-5">
       <p class="fprincipal text-white fs-3">
         Planes y <span class="text-primary"> servicios</span>
       </p>
@@ -83,8 +87,8 @@
     </div>
 
     <!-- Contenedor intermedio con precios -->
-    <div class="container-fluid bg-white">
-      <div class="container text-center">
+    <div class="container-fluid bg-white borderr1 pr-0 ">
+      <div class="container text-center py-5">
         <p class="fprincipal fs-3">
           Planes de <span class="text-primary">difusión</span>
         </p>
@@ -94,16 +98,17 @@
         </p>
       </div>
 
-      <div class="container row">
+      <div class="d-flex flex-lg-row flex-column justify-content-center align-items-center mb-5">
         <!-- CARDS -->
 
         <!-- Card1 -->
-        <div class="card col" style="width: 18rem">
+        <div class="card col bg-light br-2 mx-2 my-2" style="width: 18rem">
           <div class="card-body">
-            <h5 class="card-title text-center">Plan diario</h5>
+            <h5 class="card-title text-center fw-bold">Plan diario</h5>
+            <hr>
             <p class="card-text">
-              <ul>
-                <li>Publicación por 1 dí<aside></aside></li>
+              <ul class="card-list">
+                <li>Publicación por 1 día<aside></aside></li>
                 <li>2 publicaciones en grupos de whatsapp</li>
                 <li>Presencia en grupos de whatsapp con +200 personas </li>
                 <li>1 publicación diaria en instagram</li>
@@ -115,11 +120,34 @@
         </div>
 
         <!-- Card2 -->
-        <div class="card col" style="width: 18rem">
+        <div class="pt-4 bg-primary br-2">
+          <h5 class="text-center text-white">Popular</h5>
+          <div class="card col bg-light br-2 mx-2 my-2" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title text-center fw-bold">Plan mensual</h5>
+              <hr>
+              <p class="card-text">
+                <ul class="card-list">
+                  <li>Publicación por 30 días</li>
+                  <li>2 publicaciones en grupos de whatsapp</li>
+                  <li>Presencia en grupos de whatsapp con +200 personas </li>
+                  <li>1 publicación diaria en instagram</li>
+                  <li>1 publicación diaria en facebook</li>
+                  <li>Soporte personalizado</li>
+                </ul>
+              </p>
+              <h3 class="text-center">$2500</h3>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Card3 -->
+        <div class="card col bg-light br-2 mx-2 my-2" style="width: 18rem">
           <div class="card-body">
-            <h5 class="card-title text-center">Plan 15 días</h5>
+            <h5 class="card-title text-center fw-bold">Plan 15 días</h5>
+            <hr>
             <p class="card-text">
-              <ul>
+              <ul class="card-list">
                 <li>Publicación por 7 días</li>
                 <li>2 publicaciones diarias en grupos de whatsapp</li>
                 <li>Presencia en grupos de whatsapp con +200 personas </li>
@@ -127,26 +155,12 @@
                 <li>1 publicación diaria en facebook</li>
                 <li>Soporte personalizado</li>
               </ul>
+              
             </p>
           </div>
-        </div>
-        <!-- Card3 -->
-        <div class="card col" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title text-center">Plan mensual</h5>
-            <p class="card-text">
-              <ul>
-                <li>Publicación por 30 días</li>
-                <li>2 publicaciones en grupos de whatsapp</li>
-                <li>Presencia en grupos de whatsapp con +200 personas </li>
-                <li>1 publicación diaria en instagram</li>
-                <li>1 publicación diaria en facebook</li>
-                <li>Soporte personalizado</li>
-              </ul>
-            </p>
-          </div>
-        </div>
+
       </div> 
+    </div>
       <!-- Termina el div de las cards -->
 
       <p class="fprincipal fs-3">
@@ -154,48 +168,52 @@
       </p>
 
       <!-- Accordion de preguntas frecuentes -->
-      <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              ¿Daniela Lascano administra redes sociales?
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+      <div class="bg-info">
+        <div class="bg-white borderr3 pb-6">
+          <div class="accordion accordion-flush borderr3" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  ¿Daniela Lascano administra redes sociales?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  ¿Cuál es el alcance de usuarios por Daniela Lascano?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  ¿Qué opciones de pago ofrece Daniela Lascano?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  Ningún plan se adapta a mis necesidades, ¿Tengo más opciones?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              ¿Cuál es el alcance de usuarios por Daniela Lascano?
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              ¿Qué opciones de pago ofrece Daniela Lascano?
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-              Ningún plan se adapta a mis necesidades, ¿Tengo más opciones?
-            </button>
-          </h2>
-          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-          </div>
-        </div>
       </div>
+    </div>
 
       <!-- Termina accordion de preguntas frecuentes -->
     </div>
