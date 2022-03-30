@@ -151,3 +151,10 @@ ul.card-list li::before {
   background-color: #e8e8e8;
   border: none;
 }
+
+/* Redes */
+
+.redes:hover {
+  transform: translateY(-7px);
+  transition: 0.4s ease-in-out;
+}
