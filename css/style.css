@@ -157,3 +157,12 @@ ul.card-list li::before {
 .br-imagen {
   border-radius: 1.5rem;
 }
+
+/* Weigth 700 de el número "+30" */
+.fw700 {
+  font-weight: 700;
+}
+
+.maxh {
+  max-height: 3.9rem;
+}
