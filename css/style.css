@@ -157,3 +157,9 @@ ul.card-list li::before {
 .br-imagen {
   border-radius: 1.5rem;
 }
+/* Redes */
+
+.redes:hover {
+  transform: translateY(-7px);
+  transition: 0.4s ease-in-out;
+}
