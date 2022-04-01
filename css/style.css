@@ -155,8 +155,9 @@ ul.card-list li::before {
 /* Border Radius de imagen de tarjeta de Daniela Lazcano */
 
 .br-imagen {
-  border-radius: 1.5rem;
+  border-radius: 1.5rem !important;
 }
+
 /* Redes */
 
 .redes:hover {
@@ -189,4 +190,8 @@ ul.card-list li::before {
   width:300px;
   transform: translateX(28px);
   margin:1rem 0;
+}
+
+.br-cat {
+  border-radius: 20px 20px 0 0;
 }
