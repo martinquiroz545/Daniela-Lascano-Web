@@ -163,3 +163,10 @@ ul.card-list li::before {
   transform: translateY(-7px);
   transition: 0.4s ease-in-out;
 }
+
+/* Tarjeta de opinion */
+
+.img-tarjeta {
+  width: 150px;
+  height: 150px;
+}
