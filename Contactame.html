@@ -80,10 +80,14 @@
         </div>
       </nav>
     </header>
-   <!-- Botón flotante Whatsapp -->
-        <a href="https://api.whatsapp.com/send?phone=5493513561630" class="btn-wsp" target="blank">
-          <img src="img/icons8-wp.png" alt="icono whatsapp" class="icon-whatsapp">
-         </a>
+    <!-- Botón flotante Whatsapp -->
+    <a
+      href="https://api.whatsapp.com/send?phone=5493513561630"
+      class="btn-wsp"
+      target="blank"
+    >
+      <img src="img/icons8-wp.png" alt="icono whatsapp" class="icon-whatsapp" />
+    </a>
     <!-- Primera Parte -->
     <div class="container text-center">
       <p class="fprincipal text-white fs-3">
@@ -104,54 +108,64 @@
           <img src="/img/escritorioconmano.jpg" class="img-fluid" alt="..." />
         </div>
         <!-- Div para Formulario -->
+
         <div class="col-md-6">
-          <div class="mb-3">
-            <label for="formGroupExampleInput" class="form-label"
-              >Nombres y Apellidos</label
+          <form action="https://formspree.io/f/mwkynwaa" method="POST">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label"
+                >Nombres y Apellidos</label
+              >
+              <input
+                name="nombre"
+                type="text"
+                class="form-control inputal"
+                id="formGroupExampleInput"
+                placeholder=""
+              />
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label"
+                >Correo electrónico</label
+              >
+              <input
+                name="email"
+                type="email"
+                class="form-control inputal"
+                id="formGroupExampleInput2"
+                placeholder=""
+              />
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label"
+                >Mensaje</label
+              >
+              <input
+                name="message"
+                type="text"
+                class="form-control inputal"
+                id="formGroupExampleInput"
+                placeholder=""
+                style="height: 6rem"
+              />
+            </div>
+            <button
+              type="submit"
+              class="btn btn-info col-12 col-md-6 text-dark boton"
             >
-            <input
-              type="text"
-              class="form-control inputal"
-              id="formGroupExampleInput"
-              placeholder=""
-            />
-          </div>
-          <div class="mb-3">
-            <label for="formGroupExampleInput2" class="form-label"
-              >Correo electrónico</label
-            >
-            <input
-              type="text"
-              class="form-control inputal"
-              id="formGroupExampleInput2"
-              placeholder=""
-            />
-          </div>
-          <div class="mb-3">
-            <label for="formGroupExampleInput" class="form-label"
-              >Mensaje</label
-            >
-            <input
-              type="text"
-              class="form-control inputal"
-              id="formGroupExampleInput"
-              placeholder=""
-              style="height: 6rem"
-            />
-          </div>
-          <button
-            type="button"
-            class="btn btn-info col-12 col-md-6 text-dark boton"
-          >
-            Enviar
-          </button>
+              Enviar
+            </button>
+          </form>
         </div>
+
         <!-- Termina div de formulario -->
         <div>
           <p class="text-center bg-white py-5 mb-0">
             ¿Prefieres una atención más personalizada? Comunícate a nuestro
-            enlace de whatsapp para ser atendido por un asesor <br>
-            <strong class="fs-4">Envianos un mensaje al +54 9 351 356-1630 y te atenderemos a la brevedad.</strong>
+            enlace de whatsapp para ser atendido por un asesor <br />
+            <strong class="fs-4"
+              >Envianos un mensaje al +54 9 351 356-1630 y te atenderemos a la
+              brevedad.</strong
+            >
           </p>
         </div>
       </div>
