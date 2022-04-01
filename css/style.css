@@ -170,3 +170,11 @@ ul.card-list li::before {
   width: 150px;
   height: 150px;
 }
+/* Weigth 700 de el número "+30" */
+.fw700 {
+  font-weight: 700;
+}
+
+.maxh {
+  max-height: 3.9rem;
+}
